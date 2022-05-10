@@ -6,8 +6,6 @@ function Tours(props) {
              
                <br/>
            </div>
-
-    
     );
 }
 export default Tours;
