@@ -5,15 +5,27 @@ import '../tours/Tours';
 import Header from '../header/Header';
 import Tours from '../tours/Tours';
 import Footer from '../footer/Footer';
-function Home(props) {
+import toursData from '../../data/db.json';
 
+function Home(props) {
 
     return (
         <>
-        <Header/>
-        {/* <Tours /> */}
-        <Footer />
-          
+            <Header />
+            {
+
+                toursData.map(tour => {
+                    return (
+
+                     <Tours image={tour.image} alt={tour.info} title={tour.name} />
+
+
+                    )
+                })
+            }
+            
+            <Footer />
+
         </>
     )
 }
