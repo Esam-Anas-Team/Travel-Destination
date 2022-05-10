@@ -5,7 +5,6 @@ import '../tours/Tours';
 import Header from '../header/Header';
 import Tours from '../tours/Tours';
 import Footer from '../footer/Footer';
-
 import toursData from '../../data/db.json';
 
 function Home(props) {
