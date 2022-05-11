@@ -1,12 +1,14 @@
-
-function Header(props) {
-
-
-    return (
+import './Header.css'
+function Header(props){
+    return(
         <>
-           <h1>Travel Destination Web Application</h1>
+        <div className="headerDiv">
+        <h1>Travel Destination</h1>
+        </div>
         </>
-    )
+        
+    );
 }
+
 
 export default Header;
