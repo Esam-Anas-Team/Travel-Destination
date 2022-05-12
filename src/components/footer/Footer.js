@@ -8,7 +8,6 @@ function Footer(props) {
     width: "50px",
     height: "50px",
   };
-
   return (
     <>
       <img style={mystyle} src={urlFac} alt={altvalues} />
@@ -17,5 +16,4 @@ function Footer(props) {
     </>
   );
 }
-
 export default Footer;
